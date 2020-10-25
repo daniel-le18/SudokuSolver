@@ -11,4 +11,3 @@ grid = [[3, 0, 0, 0, 6, 0, 9, 2, 0],
         [0, 4, 5, 0, 1, 0, 0, 0, 7]]
 
 grid = np.matrix(grid)
-print(grid)

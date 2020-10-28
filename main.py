@@ -1,5 +1,7 @@
 import numpy as np
 
+# TODO: implementing interface with Tkinter
+
 grid = [[3, 0, 0, 0, 6, 0, 9, 2, 0],
         [0, 1, 0, 0, 0, 3, 4, 0, 0],
         [4, 0, 9, 0, 8, 5, 0, 1, 6],
@@ -45,5 +47,6 @@ def solve():
                         grid[x][y] = 0
                 return
     print(np.matrix(grid))
+
 
 solve()
